@@ -1,0 +1,28 @@
+/* Estils bàsics per al cos de la pàgina */
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Estil per al contenidor del joc */
+#juego {
+    display: grid;
+    grid-template-columns: repeat(4, 80px); /* 4 columnes */
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+/* Estil per a cada quadre de color */
+.cuadro {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* Missatge informatiu */
+#mensaje {
+    margin-top: 20px;
+    font-size: 18px;
+}
